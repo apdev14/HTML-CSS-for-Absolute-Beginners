@@ -1,3 +1,22 @@
-body { 
+/* body { 
     background-color: purple;
-} 
+}  
+    body is the rule. Selector
+
+    background-color = property:
+
+    purple = value 
+*/
+
+h1 {
+    color: #4676A9;
+}
+
+h2 {
+    color: #CB721C;
+}
+
+footer {
+    background-color: #22466C;
+    color: #FFF;
+}
