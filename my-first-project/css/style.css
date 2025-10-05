@@ -8,19 +8,44 @@
     purple = value 
 */
 
+body {
+    font-family: sans-serif;
+    color: #72278d;
+    /** px is bad practice 
+    rem scaled value of the html font size - default 16px*/
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* p {
+    /** separates space between paragraphs */
+    /*? Not sure of diff from margin top/bottom  */
+    margin-block: 50px;
+/* } */ */
+
 header {
     /*? by applying this to the parent elem, we center the img (logo) - img are inline  elements */
     text-align: center;
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #4676A9;
     text-align: center;
+    font-size: 4.5rem;
+    line-height: 1.1;
 } 
 
 h2 {
     color: #CB721C;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+section {
+    margin-block: 75px;
 }
 
 footer {
